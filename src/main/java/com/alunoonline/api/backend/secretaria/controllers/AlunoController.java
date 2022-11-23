@@ -53,6 +53,6 @@ public class AlunoController {
     @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public Aluno updateAluno(@PathVariable Long id, @RequestBody Aluno aluno){
-        return service.updateAluno(id , aluno);
+        return service.updateAluno(id, aluno);
     }
 }
