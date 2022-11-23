@@ -1,4 +1,4 @@
-package com.alunoonline.api.backend.models;
+package com.alunoonline.api.backend.secretaria.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,12 +14,11 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Aluno implements Serializable {
-
-    @Id // Marca como PK
+public class Professor implements Serializable {
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
-    private String email;
-    private String curso;
+    private String sobrenome;
+    private String disciplinaMinistrada;
 }

@@ -1,7 +1,7 @@
-package com.alunoonline.api.backend.controllers;
+package com.alunoonline.api.backend.secretaria.controllers;
 
-import com.alunoonline.api.backend.models.Professor;
-import com.alunoonline.api.backend.services.ProfessorService;
+import com.alunoonline.api.backend.secretaria.models.Professor;
+import com.alunoonline.api.backend.secretaria.services.ProfessorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
